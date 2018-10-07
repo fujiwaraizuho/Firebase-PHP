@@ -1,0 +1,21 @@
+body, html {
+    background-color: #d3d3d3;
+}
+
+header > .navbar {
+    background-color: #03A9F4;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+@media (max-width: 767px) {
+    header > .navbar {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .row {
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+}
